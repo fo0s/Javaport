@@ -21,3 +21,9 @@ Started with creating a plane. As I know the importance of it's state will be im
 Next Started work on the airport. We need to able to store a plane somewhere... hangers with an empty state. There's no planes in there yet. Obvs.
 
 Airport (being the magical being it is) asks a lonely plane to join them. It complies.
+
+> As an air traffic controller
+>
+>So I can get passengers on the way to their destination
+>
+>I want to instruct a plane to take off from an airport and confirm that it is no longer in the airport
