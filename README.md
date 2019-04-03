@@ -24,8 +24,14 @@ Airport (being the magical being it is) asks a lonely plane to join them. It com
 
 > As an air traffic controller
 >
->So I can get passengers on the way to their destination
+> So I can get passengers on the way to their destination
 >
->I want to instruct a plane to take off from an airport and confirm that it is no longer in the airport
+> I want to instruct a plane to take off from an airport and confirm that it is no longer in the airport
 
 Airport has an array which stores planes. Now has the ability to have one of the planes removed.
+
+> As an air traffic controller
+>
+> To ensure safety
+>
+> I want to prevent takeoff when weather is stormy
