@@ -12,5 +12,14 @@ describe('Airport does: ', function(){
       airport.accept(fakePlane);
       expect(airport.hanger).toContain(fakePlane);
     })
+
+    it('can release one plane', function(){
+      fakePlane.land();
+      airport.accept(fakePlane);
+      airport.release(fakePlane);
+      expect(airport.hanger).not.toContain(fakePlane);
+    })
   })
+
+
 })

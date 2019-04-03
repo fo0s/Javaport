@@ -27,3 +27,5 @@ Airport (being the magical being it is) asks a lonely plane to join them. It com
 >So I can get passengers on the way to their destination
 >
 >I want to instruct a plane to take off from an airport and confirm that it is no longer in the airport
+
+Airport has an array which stores planes. Now has the ability to have one of the planes removed.
