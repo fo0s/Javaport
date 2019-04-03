@@ -1,7 +1,8 @@
-describe ("Plane does: ", function()
+describe ("Plane does: ", function(){
+  var plane;
 
   beforeEach(function(){
-    plane = new plane();
+    plane = new Plane();
   })
 
   describe("#lands", function() {
