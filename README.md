@@ -35,3 +35,19 @@ Airport has an array which stores planes. Now has the ability to have one of the
 > To ensure safety
 >
 > I want to prevent takeoff when weather is stormy
+
+A nice and simple implimplimentation to check weather conditions. Those planes arn't going anywhere.
+
+> As an air traffic controller
+>
+> To ensure safety
+>
+> I want to prevent landing when weather is stormy
+
+Totally ignoring health and safety, planes now can't land either when weather conditions are bad.
+
+> As an air traffic controller
+>
+> To ensure safety
+>
+>I want to prevent landing when the airport is full

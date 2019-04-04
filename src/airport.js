@@ -3,8 +3,11 @@ function Airport() {
 }
 
 // Add values to array
-Airport.prototype.accept = function(plane) {
-  if (plane.isLanded){
+Airport.prototype.accept = function(plane, weather) {
+  if (weather.isStormy){
+    return 'Error: Weather is stormy!'
+  } else if (plane.isLanded) {
+    plane.land();
     this.hanger.push(plane);
   } else {
     return 'Error: Plane is still airborn!'

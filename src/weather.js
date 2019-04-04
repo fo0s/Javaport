@@ -3,9 +3,7 @@ function Weather() {
 }
 
 // change object state
-Weather.prototype.notStormy = function(){
-  return this.stormy = false
-}
+Weather.prototype.notStormy = function(){ return this.stormy = false }
 
 // return object state
 Weather.prototype.isStormy = function() { return this.stormy }
